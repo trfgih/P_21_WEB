@@ -1,0 +1,29 @@
+﻿
+body {
+    font-family: 'Roboto';
+    /*  font-weight:100;*/
+}
+
+h1 {
+    font-family: 'Playwrite CU';
+    color: gray !important;
+    text-align: justify;
+}
+
+h2 {
+    color: gray;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#Intro {
+    color: blue;
+}
+
+.Definition {
+    font-weight: 700;
+}
+
