@@ -1,0 +1,17 @@
+﻿body
+{
+    font-size:24px;
+    background-color:aquamarine;
+}
+ol {
+    list-style-type:georgian;
+}
+ul {
+    list-style:disc;
+    color:blue;
+    text-align:justify;
+    list-style-position:inside;
+}
+.bitcoin {
+    list-style-image:url(img/b1.ico)
+}
