@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <!--file:///C:/Users/user/source/repos/P_21_WEB/Forms/form.html?radioLearningForm=on#file.php-->
+</head>
+<body>
+    <form action="#file.php" method="get">
+        <p><input type="text" placeholder="введите ваше имя" name="fullName" maxlength="25" size="25"></p>
+        <p><input type="password" placeholder="введите пароль" name="passwd"></p>
+        <p><input type="tel" placeholder="ваш номер телефона" name="phone" ></p>
+        <p><input type="email" placeholder="E-mail" i=name="email"></p>
+        <p>дата рождения<br><input type="date" name="email"></p>
+        <p> добавте фото:<br><input type="file" name="photo" ></p>
+        <p><textarea placeholder="пару слов о себе" rows="5" cols="25" name="introd"></textarea></p>
+        <h2>какие языки вы знаете?</h2>
+        <fieldset >
+            <legend>кокие языки вы знаете</legend>
+            <p>
+                <input type="checkbox" id="russian"><label for="russian">Русский</label><br>
+                <input type="checkbox" id="English"><label for="English">English</label><br>
+                <input type="checkbox" id="Deutsche"><label for="Deutsche">Deutsche</label><br>
+                <input type="checkbox" id="Italiano"><label for="Italiano">Italiano</label><br>
+                <input type="checkbox" id="Espaniol"><label for="Espaniol">Espaniol</label><br>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>выберите форму обучения</legend>
+            <input type="radio" name="radioLearningForm" id="stacionar"> <label for="stacionar">стационар</label><br>
+            <input type="radio" name="radioLearningForm" id="semiStacionar"> <label for="semiStacionar">полустационар</label>
+        </fieldset>
+
+        <p>
+            <select>
+                <option disabled selected>выберите специальность</option>
+                <option>РПО</option>
+                <option>сети</option>
+                <option>дизайн</option>
+            </select>
+        </p>
+
+        <p>
+            <select>
+                <option disabled selected> выберите дни недели</option>
+                <option>понедкльник</option>
+                <option>вторник</option>
+                <option>среда</option>
+                <option>четверг</option>
+                <option>пятгница</option>
+                <option>суббота</option>
+                <option>воскресенье</option>
+            </select>
+        </p>
+
+        <p>
+            выберите ваш любимый цвет<input type="color" name="color"><br>
+            когда вы хотьите каникулы<input type="week" name="vak"><br>
+            куда бы вы хотели поехать на каникулах <input type="search" placeholder="поиск" name="search"><br>
+            на сколько вы довольны обучением <input type="range" name="dovolen">
+        </p>
+
+        <p>
+            <input type="reset" value="обновить">
+            <input type="submit" value="отправить">
+        </p>
+    </form>
+</body>
+</html>
